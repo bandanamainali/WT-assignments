@@ -1,5 +1,5 @@
-#H1 Pattern Matching & File Handling in PHP
-##H2 Pattern Matching
+ Pattern Matching & File Handling in PHP
+ Pattern Matching
 Hypertext Preprocessor (PHP) using regular expression for pattern matching. A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for. Regular expression is of two types:
 
 POSIX Regular Expression
@@ -11,7 +11,7 @@ preg_match()    	Returns 1 if the pattern was found in the string and 0 if not
 preg_match_all()	Returns the number of times the pattern was found in the string, which may also be 0
 preg_replace()	  Returns a new string where matched patterns have been replaced with another string
 preg_split()	    Breaks a string into an array using matches of a regular expression as separators.
-#H3 examples: 1.
+ examples: 1.
 `<?php
 
 $str = "Hello There!";
@@ -49,10 +49,10 @@ print_r($strnew); // Outputs --> Array ( [0] => apple [1] => banana [2] => cucum
 `
 
 
-#H3 File Handling
+ File Handling
 PHP has several functions for creating, reading, uploading, and editing files.
 
-#H2 Functions     	Description
+ Functions     	Description
 readfile()	         The readfile() function reads a file and writes it to the output buffer.
 fopen()	             A better method to open files is with the fopen() function. This function gives you more options than the readfile() function. Can also be used to create                        files.
 fread()	             The fread() function reads from an open file. The first parameter of fread() contains the name of the file to read from and the second parameter specifies                        the maximum number of bytes to read.
